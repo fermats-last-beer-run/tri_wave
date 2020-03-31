@@ -75,5 +75,7 @@ def mario(c,e,g,low_g):
     z += 1/2
     return song
 
-play(both(mario_at(3),mario_at(4)), "songlong.wav", 10)
+play(both(mario_at(1),mario_at(1/2)), "song.wav")
+play(both(mario_at(3),mario_at(5)), "song_high.wav")
+play(both(mario_at(1/2),mario_at(0.2)), "song_low.wav")
 
