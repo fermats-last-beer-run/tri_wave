@@ -52,6 +52,7 @@ def note(f, start, end, fade = 0.01):
         else:
             return f(t)
     return sampler
+    
 def mario_at(octave):
     c, e = tri(octave * c_freq), tri(octave * e_freq)
     g, low_g = tri(octave * g_freq), tri(octave * g_freq / 2)
